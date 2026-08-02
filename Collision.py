@@ -7,7 +7,7 @@ FONT_SIZE = 72
 
 pygame.init()
 
-background_image = pygame.transform.scale(pygame.image.load("bg.jpg.jpg"),
+background_image = pygame.transform.scale(pygame.image.load("bg.jpg"),
                                           (SCREEN_WIDTH, SCREEN_HEIGHT))
 
 font = pygame.font.SysFont("Broadway", FONT_SIZE)
