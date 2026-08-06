@@ -15,8 +15,8 @@ class PetProfile:
         self.favourite_food = favourite_food
 
 
-pet1 = PetProfile("Buddy", "Dog", 4, "Biscuits")
-pet2 = PetProfile("Milo", "Cat", 3, "Fish")
+pet1 = PetProfile("Skye", "Dog", 2, "Cookies")
+pet2 = PetProfile("Ginger", "Cat", 5, "Milk")
 
 print("Buddy is a {}".format(pet1.category))
 print("Milo is also a {}".format(pet2.category))
