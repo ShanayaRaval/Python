@@ -27,7 +27,7 @@ fact_font = pygame.font.Font(None, 28)
 heading_text = heading_font.render("Wildlife Spotlight: Tiger", True, pygame.Color("black"))
 heading_rect = heading_text.get_rect(center=(SCREEN_WIDTH // 2, 45))
 
-fact_text = fact_font.render("Tigers are powerful wild cats.", True, pygame.Color("black"))
+fact_text = fact_font.render(" Some tigers can copy the calls of other animals to trick and lure their prey.", True, pygame.Color("black"))
 fact_rect = fact_text.get_rect(center=(SCREEN_WIDTH // 2, 420))
 
 def game_loop():
